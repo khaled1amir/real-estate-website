@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.container1 {
+    width: 100%;
+    height: 100%;
+    padding: 0 200px;
+}
+header {
+    width: 100%;
+    height: 120px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 70px;
+}
+header .logo img {
+    width: 100%;
+}
+header nav {
+    transform: translateX(-180px);
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-right: 12px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    width: 134px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #1C3988;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.intro {
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro .textArea {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro .textArea h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 65px;
+    color: darkblue;
+    line-height: 86.3px;
+    margin-bottom: 12px;
+}
+.intro .textArea p {
+    font-size: 22px;
+    line-height: 34.2px;
+}
+.intro .textArea .searchBar {
+    width: 516px;
+    height: 104px;
+    background-color: #f3f3fa;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 12px;
+}
+.searchBar .searchBox {
+    width: 302px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.searchBox i {
+    color: #ddd;
+}
+.searchBar .searchBox input{
+    width: 90%;
+    margin-left: 12px;
+    border: none;
+    outline: none;
+}
+.btn2 {
+    width: 150px;
+    height: 56px;
+}
+.searchBar .searchBox i {
+    transform: translateX(60px);
+}
+.intro .imgArea {
+    width: 50%;
+    height: 100%;
+}
+.intro .imgArea .images {
+    position: relative;
+    transform: translateX(65px);
+}
+.dots {
+    transform: translateX(100px);
+}
+.intro .imgArea .images .rect1 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(175px, -170px);
+    width: 404px;
+    height: 496px;
+    border-radius: 4px;
+    background-image: url('./assets/intro-full.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rect2 {
+    width: 404px;
+    height: 496px;
+    border-radius: 4px;
+    background-image: url('./assets/intro-transparent.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-offers {
+    margin-top: 60px;
+    padding: 100px 200px;
+    width: 100%;
+    height: 920px;
+    background-color: #f3f3fa;
+}
+.top-offers h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 52px;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+.top-offers .top-offers-top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-offers .top-offers-top-bar p {
+    font-size: 20px;
+    line-height: 34.2px;
+}
+.top-offers .top-offers-top-bar button {
+    width: 152px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 3px solid darkblue;
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cards-box {
+    margin-top: 100px;
+    width: 100%;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards-box .card {
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.card1 .card-img {
+    width: 100%;
+    height: 250px;
+    background-image: url('./assets/top-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.card .card-text {
+    padding: 20px;
+}
+.card .card-text h3 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 40px;
+}
+.card .price {
+    color: darkblue;
+    font-size: 17px;
+    font-weight: bold;
+}
+.card2 .card-img {
+    width: 100%;
+    height: 250px;
+    background-image: url('./assets/top-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.card3 .card-img {
+    width: 100%;
+    height: 250px;
+    background-image: url('./assets/top-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.about {
+    padding: 50px 0;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden !important;
+}
+.about .about-image-box {
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+}
+.about .about-text-box {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+}
+.about .about-dots {
+    width: 500px;
+}
+.about .about-image-box .main-about-img {
+    width: 600px;
+    height: 400px;
+    background-image: url('./assets/about-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translate(55px, -275px);
+}
+.about .about-text-box h1 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 40px;
+    color: darkblue;
+    font-size: 52px;
+}
+.about .about-text-box p {
+    line-height: 25px;
+    font-size: 17px;
+    
+}
