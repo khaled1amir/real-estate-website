@@ -4,15 +4,18 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
 }
+
 .container1 {
     width: 100%;
     height: 100%;
     padding: 0 200px;
 }
+
 header {
     width: 100%;
     height: 120px;
@@ -21,26 +24,33 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header .logo{
+
+header .logo {
     width: 70px;
 }
+
 header .logo img {
     width: 100%;
 }
+
 header nav {
     transform: translateX(-180px);
 }
+
 header nav ul {
     list-style-type: none;
 }
+
 header nav ul li {
     display: inline-block;
     margin-right: 12px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: black;
 }
+
 .btn {
     width: 134px;
     height: 48px;
@@ -52,6 +62,7 @@ header nav ul li a {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .intro {
     width: 100%;
     height: 600px;
@@ -60,6 +71,7 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center;
 }
+
 .intro .textArea {
     width: 50%;
     height: 100%;
@@ -68,6 +80,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
 }
+
 .intro .textArea h1 {
     font-family: 'Merriweather', serif;
     font-size: 65px;
@@ -75,10 +88,12 @@ header nav ul li a {
     line-height: 86.3px;
     margin-bottom: 12px;
 }
+
 .intro .textArea p {
     font-size: 22px;
     line-height: 34.2px;
 }
+
 .intro .textArea .searchBar {
     width: 516px;
     height: 104px;
@@ -90,6 +105,7 @@ header nav ul li a {
     padding: 15px;
     margin-top: 12px;
 }
+
 .searchBar .searchBox {
     width: 302px;
     height: 56px;
@@ -100,33 +116,41 @@ header nav ul li a {
     align-items: center;
     padding: 15px;
 }
+
 .searchBox i {
     color: #ddd;
 }
-.searchBar .searchBox input{
+
+.searchBar .searchBox input {
     width: 90%;
     margin-left: 12px;
     border: none;
     outline: none;
 }
+
 .btn2 {
     width: 150px;
     height: 56px;
 }
+
 .searchBar .searchBox i {
     transform: translateX(60px);
 }
+
 .intro .imgArea {
     width: 50%;
     height: 100%;
 }
+
 .intro .imgArea .images {
     position: relative;
     transform: translateX(65px);
 }
+
 .dots {
     transform: translateX(100px);
 }
+
 .intro .imgArea .images .rect1 {
     position: absolute;
     top: 50%;
@@ -140,6 +164,7 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .rect2 {
     width: 404px;
     height: 496px;
@@ -149,6 +174,7 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .top-offers {
     margin-top: 60px;
     padding: 100px 200px;
@@ -156,23 +182,27 @@ header nav ul li a {
     height: 920px;
     background-color: #f3f3fa;
 }
+
 .top-offers h1 {
     font-family: 'Merriweather', serif;
     font-size: 52px;
     color: darkblue;
     margin-bottom: 30px;
 }
+
 .top-offers .top-offers-top-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .top-offers .top-offers-top-bar p {
     font-size: 20px;
     line-height: 34.2px;
 }
-.top-offers .top-offers-top-bar button {
+
+.secBtn {
     width: 152px;
     height: 48px;
     border-radius: 4px;
@@ -182,6 +212,7 @@ header nav ul li a {
     font-weight: bold;
     cursor: pointer;
 }
+
 .cards-box {
     margin-top: 100px;
     width: 100%;
@@ -190,6 +221,7 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center;
 }
+
 .cards-box .card {
     width: 350px;
     height: 100%;
@@ -198,6 +230,7 @@ header nav ul li a {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     cursor: pointer;
 }
+
 .card1 .card-img {
     width: 100%;
     height: 250px;
@@ -208,18 +241,22 @@ header nav ul li a {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
+
 .card .card-text {
     padding: 20px;
 }
+
 .card .card-text h3 {
     font-family: 'Merriweather', serif;
     margin-bottom: 40px;
 }
+
 .card .price {
     color: darkblue;
     font-size: 17px;
     font-weight: bold;
 }
+
 .card2 .card-img {
     width: 100%;
     height: 250px;
@@ -230,6 +267,7 @@ header nav ul li a {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
+
 .card3 .card-img {
     width: 100%;
     height: 250px;
@@ -240,6 +278,7 @@ header nav ul li a {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
+
 .about {
     padding: 50px 0;
     width: 100%;
@@ -249,19 +288,23 @@ header nav ul li a {
     align-items: center;
     overflow: hidden !important;
 }
+
 .about .about-image-box {
     width: 60%;
     height: 100%;
     overflow: hidden;
 }
+
 .about .about-text-box {
     width: 40%;
     height: 100%;
     padding: 30px;
 }
+
 .about .about-dots {
     width: 500px;
 }
+
 .about .about-image-box .main-about-img {
     width: 600px;
     height: 400px;
@@ -271,14 +314,215 @@ header nav ul li a {
     background-size: cover;
     transform: translate(55px, -275px);
 }
+
 .about .about-text-box h1 {
     font-family: 'Merriweather', serif;
     margin-bottom: 40px;
     color: darkblue;
     font-size: 52px;
 }
+
 .about .about-text-box p {
     line-height: 25px;
     font-size: 17px;
-    
+}
+
+.team {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team .team-card {
+    width: 350px;
+    height: 378px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 30px;
+}
+
+#text-card {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.team-card .card-img {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.card-img1 {
+    background-image: url('./assets/team1.jpg');
+}
+
+.card-img2 {
+    background-image: url('./assets/team3.jpg');
+}
+
+.card-img3 {
+    background-image: url('./assets/team2.jpg');
+}
+
+.card-img4 {
+    background-image: url('./assets/team4.jpg');
+}
+
+.card-img5 {
+    background-image: url('./assets/team5.jpg');
+}
+
+.card-txt {
+    text-align: center;
+}
+
+.card-txt h3 {
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    color: darkblue;
+}
+
+#text-card {
+    margin-top: 10%;
+}
+
+#text-card h2 {
+    color: darkblue;
+    font-size: 52px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 25px;
+}
+
+#text-card p {
+    font-size: 22px;
+}
+
+.references {
+    width: 100%;
+    height: 900px;
+    margin-top: 200px;
+}
+
+.references h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 52px;
+    color: darkblue;
+    line-height: 69px;
+    margin-bottom: 12px;
+}
+
+.references .firstP {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.references .quotes-container {
+    margin-top: 50px;
+    width: 100%;
+    height: 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.references .quotes-container .quote {
+    width: 541px;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #f3f3fa;
+    padding: 30px;
+}
+
+.references .quotes-container .quote q {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.quotes-container .quote div {
+    margin-top: 50px;
+}
+
+.quotes-container .quote div h3 {
+    font-size: 22px;
+    color: darkblue;
+    font-family: 'Merriweather', serif;
+}
+
+.newsletter {
+    padding: 0 200px;
+    width: 100%;
+    height: 398px;
+    background-color: #f3f3fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter .shape {
+    width: 217px;
+    height: 217px;
+    background-image: url('./assets/newsletter-icon.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newsletter-content .content {
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+}
+
+.newsletter-content .content h1 {
+    color: darkblue;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 12px;
+}
+
+.newsletter-content .content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.newsletter-content .content .newsletterform input {
+    width: 260px;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #f3f3fa;
+    padding: 0 15px;
+    margin-right: 12px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em inset;
+}
+footer {
+    width: 100%;
+    height: 190px;
+    background-color: #1C3988;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    width: 150px;
 }
